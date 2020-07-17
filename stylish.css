@@ -1,0 +1,30 @@
+body{
+ background-color: grey;
+}
+
+.story{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 60%; 
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    background-color: white;
+
+}
+
+.text{
+    background-color: #CDE8FF;
+    padding: 20px 50px;
+    text-align: justify;
+}
+
+.image{
+    background:linear-gradient(to bottom, #39FAA8  0%, #398BFA 100%);
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 100px;
+}
