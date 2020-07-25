@@ -34,12 +34,10 @@ ul{
 
 }
 
-ul li{
+ul{
     background-color: gray;
-    border-bottom: 1px solid red;
     padding-left: 10px;
-    font-size: 20px;
-    color: black; 
+    font-size: 20px; 
 
 }
 
@@ -78,6 +76,8 @@ img{
     height: 100px;
     position: sticky;
     top: 100px;
+    border-radius:50%;
+
 }
 
 
@@ -102,6 +102,15 @@ img{
     .text{
         padding: 10px 40px;     
     }
+
+    .fas{
+        font-size: 70px;
+    }
+
+    .picture > img{
+        width: 70px;
+        height:70px;
+    }
 }
 
 
@@ -115,5 +124,14 @@ img{
     .text{
         padding: 5px 20px;
         
+    }
+
+    .fas{
+        font-size: 50px;
+    }
+
+    .picture > img{
+        width: 45px;
+        height:45px;
     }
 }
